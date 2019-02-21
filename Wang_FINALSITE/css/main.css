@@ -1,0 +1,440 @@
+@media only screen and (min-width: 320px) {
+    
+    .content {
+        padding-top: 25px;
+    }
+
+    
+    li {
+        display: block;
+        text-align: center;
+        padding: 5px;
+        margin: 10px;
+        margin-left: -25px;
+    }
+    
+    .home a, .hello a {
+        font-family: Helvetica, sans-serif;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        font-size: 50px;
+        float: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hello a{
+        display: none;
+    }
+    
+    .pageBreak{
+        display: block;
+        margin: 0 auto;
+        height: 175px;
+    }
+    
+    .work {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 15px;
+        clear: both;
+    } 
+    
+    .project {
+        width: 100%;
+        float: none;
+        overflow: hidden;
+        position: relative;
+    }
+    .project img {
+        width: 100%;
+    }
+    .projectLink, .projectLink:visited {
+        text-decoration: none;
+        color: floralwhite;
+    }
+    .viewProjectButton {
+        text-align: center;
+        font-size: 27px;
+        font-family: Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 7px;
+        margin: 20px auto;
+        width: 90%;
+        background-color: black;
+    }
+    
+    .description {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        overflow: none;
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+    .description p {
+        font-family: Helvetica, sans-serif;
+        font-size: 30px;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    .hello-content {
+        width: 90%;
+        margin: 25px auto;
+        padding: 5px;
+        font-size: 30px;
+        font-family: Helvetica, sans-serif;
+        text-align: left;
+    }
+
+
+    .email{
+        text-decoration: none;
+        color: #000;
+        padding: 15px 5px 15px 5px;
+        line-height: 25px;
+        font-weight: normal;
+        font-size: 28px;
+    }
+    
+    .email:visited {
+        color: #000;
+    }
+
+    .x {
+        text-decoration: none;
+        color: #000;
+        font-size: 30px;
+        font-weight: bold;
+        display: none;
+        font-family: Helvetica, sans-serif;
+    }
+    .contact {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+      
+    .content {
+        padding-top: 25px;
+    }
+    
+    
+    li {
+        display: block;
+        text-align: center;
+        padding: 5px;
+        margin: 10px;
+        margin-left: -25px;
+    }
+    
+    .home a, .hello a {
+        font-family: Helvetica, sans-serif;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        font-size: 50px;
+        float: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hello a{
+        display: none;
+    }
+
+    .work {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 15px;
+        clear: both;
+    } 
+    
+    .project {
+        width: 100%;
+        float: none;
+        overflow: hidden;
+        position: relative;
+    }
+    .project img {
+        width: 100%;
+    }
+    .projectLink, .projectLink:visited {
+        text-decoration: none;
+        color: floralwhite;
+    }
+    .viewProjectButton {
+        text-align: center;
+        font-size: 27px;
+        font-family: Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 5px;
+        margin-top: 15px;
+        background-color: black;
+    }
+    .description {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+        overflow: none;
+        padding-left: 0;
+    }
+    .description p {
+        font-family: Helvetica, sans-serif;
+        font-size: 35px;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    .hello-content {
+        width: 90%;
+        margin: 25px auto;
+        padding: 5px;
+        font-size: 35px;
+        font-family: Helvetica, sans-serif;
+        text-align: left;
+    }
+
+
+    .email{
+        text-decoration: none;
+        color: #000;
+        padding: 5px 0px 5px 0px;
+        font-weight: normal;
+        font-size: 35px;
+    }
+    
+    .email:visited {
+        color: #000;
+    }
+
+    .x {
+        text-decoration: none;
+        color: #000;
+        font-size: 30px;
+        font-weight: bold;
+        display: none;
+        font-family: Helvetica, sans-serif;
+    }
+    .contact {
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 768px) {    
+    html {
+    margin-bottom: 15%;
+}
+
+.content {
+    padding-top: 25px;
+}
+
+li {
+    display: inline-block;
+}
+
+    
+.home, .hello {
+    padding: 5px;
+    margin-top: 5px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.hello {
+    text-align: right;
+    right: 5%;
+}
+
+.home a, .hello a {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 35px;
+}
+    
+.hello a{
+        display: inline-block;
+    }
+
+.home {
+    margin-left: 2px;
+    padding-left: 0;
+}
+
+.hello a:active, .hello a:hover, .home a:active, .home a:hover {
+    border-bottom: 3px solid #000;
+}
+    
+.sectionTitle {
+        display: none;
+        font-size: 25px;
+        text-align: right;
+        font-family: Helvetica, sans-serif;
+    }
+
+.work {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 275px;
+    clear: both;
+} 
+
+.project {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.project:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: none;
+  transition: all .1s linear;
+}
+
+.project:hover:before { 
+  background-color: floralwhite;
+}
+
+.projectLink {
+    text-decoration: none;
+}
+
+.project img {
+    width: 100%;
+}
+
+
+.project:hover .image {
+    opacity: 0.25;
+    
+}
+
+.project:hover .viewProjectButton {
+    opacity: 1;
+}
+
+.viewProjectButton {
+    cursor: pointer;
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.viewProject {
+    color: #000;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.viewProject:hover {
+    color: blue;
+}
+    
+
+.description {
+    width: 40%;
+    height: 100%;
+    margin-left: 50%;
+    overflow: visible;
+    padding-left: 5%;
+}
+
+.description p {
+    font-family: Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: normal;
+}
+
+#hello {
+    position: absolute;
+    right: 0;
+    width: 95%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 15px black;
+    background: #f08080;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    -webkit-transform-origin: 100% 50%;
+    -webkit-transform: scaleX(0.00001);
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    outline: 0;
+    z-index: 1;
+}
+
+#hello:target {
+    -webkit-transform: scaleX(1);
+}
+
+.x {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+}
+
+.hello-content {
+    margin: 30px;
+    padding: 15px;
+    font-size: 27px;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+}
+
+.contact {
+    display: inline-block;
+    border-bottom: 1.5px solid #000;
+}
+
+.email{
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 2px;
+    line-height: 45px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.email:hover {
+    border-bottom: 1.5px solid #000;
+}
+
+.email:visited {
+    color: #000;
+}
+    
+    #pageBreak {
+        display: none;
+    }
+
+}
+    
